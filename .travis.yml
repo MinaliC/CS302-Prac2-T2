@@ -5,5 +5,5 @@ script:
 matrix:
   include:
     - dist: xenial
-    - dist:trusty
+    - dist: trusty
    
