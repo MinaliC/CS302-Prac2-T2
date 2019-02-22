@@ -20,6 +20,13 @@ namespace Tests
             Assert.AreEqual("0,0:",result2);
              string result3= a.Prefix("what ... did you say?? ");
             Assert.AreEqual("23,5:what ... did you say?? ",result3);
+			 string result4= a.Prefix("hel lo .");
+            Assert.AreEqual("8,3:hel lo .",result1);
+			 string result5= a.Prefix("h e l l o ");
+            Assert.AreEqual("10,5:h e l l o ",result1);
+			 string result6= a.Prefix("hello how you ");
+            Assert.AreEqual("14,3:hello how you ",result1);
+			
 
         }
     }
